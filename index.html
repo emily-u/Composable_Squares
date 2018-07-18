@@ -9,7 +9,7 @@
         return React.createElement('h1', { style: { color: mycolor, backgroundColor: background, display: 'inline-block', width: '25%', height:'200px' } }, text);
     }
     const App = (props) => {
-        return React.createElement('div', { style: {} },
+        return React.createElement('div', null,
             React.createElement(Title, { text: 'white on blue', mycolor: 'white', background: 'blue' }),
             React.createElement(Title, { text: 'blue on red', mycolor: 'blue', background: 'red' }),
             React.createElement(Title, { text: 'green on pink', mycolor: 'green', background: 'pink' })
